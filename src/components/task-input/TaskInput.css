@@ -1,0 +1,108 @@
+.TaskInput{
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  background-color: #DCDCDC;
+  border-radius: 40px;
+  padding: 8px 20px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.input-field{
+  border: none;
+  outline: none;
+  background-color: #DCDCDC;
+  width: 100%;
+}
+
+.icon-btns{
+  cursor: pointer;
+  opacity: 100%;
+  margin: 0 5px;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+  /* width: 20%; */
+}
+
+.add-btn{
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  margin: 0 5px;
+  width: 70px;
+  background-color: #0B0C18;
+  color: white;
+}
+
+.color-btn-inner-div{
+  height: 20px;
+  width: 20px;
+  background: #FF9022;
+  border-radius: 40px;
+}
+
+.TaskInput__tagSelectorDropdown{
+  width: 400px;
+  position: absolute;
+  right: 20%;
+}
+.tags{
+  /* text-align: center; */
+  display: block;
+  font-size: 1.5rem;
+  margin: 5px 20px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.tags:hover{
+  background-color: #0B0C18;
+  color: white;
+}
+.tag-modal-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tag-add-btn{
+  width: 90px;
+  margin-top: 10px;
+}
+.tag-apply-btn{
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 10px 0px;
+  background-color: #0B0C18;
+  color: white;
+}
+.color-selector-div{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+}
+.color-selector-div:hover{
+  transform: scale(1.2);
+}
+
+.clr-modal-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+}
