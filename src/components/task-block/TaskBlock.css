@@ -1,0 +1,28 @@
+.task-block{
+  width: 180px;
+  margin: 10px;
+  padding: 0px 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.task{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.pin-delete-container{
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.TaskBlock__pin{
+  cursor: pointer;
+}
+.tag{
+  background-color: rgba(255, 255, 255, 0.322);
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
