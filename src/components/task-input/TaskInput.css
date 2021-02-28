@@ -106,3 +106,9 @@
   justify-items: center;
   align-items: center;
 }
+
+@media (max-width: 580px) {
+  .TaskInput{
+    width: 90%;
+  }
+}
