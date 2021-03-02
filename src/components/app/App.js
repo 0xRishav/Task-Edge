@@ -273,7 +273,7 @@ function useLocalStorage(key, initialValue) {
       </div>
 
 
-          <footer><a className="footer-link" target="_blank" href="https://github.com/iamrishavb/Task-Edge">Source Code</a></footer>
+          <footer><a className="footer-link" href="https://github.com/iamrishavb/Task-Edge">Source Code</a></footer>
           
     </div>
   );
