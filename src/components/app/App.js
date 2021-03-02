@@ -89,7 +89,7 @@ function useLocalStorage(key, initialValue) {
   const [isFilterActive, setIsFilterActive] = useState(false);
 
   // This state is to track which filter tag is active
-  const [activeFilterTag, setActiveFilterTag] = useState('');
+  const [activeFilterTag, setActiveFilterTag] = useState('All');
 
   // const [filteredPinnedArr, setFilteredPinnedArr] = useState([]);
   const [filteredAllArr, setFilteredAllArr] = useState([]);
