@@ -4,6 +4,10 @@
   position: relative;
 }
 
+h1{
+  line-height: 40px;
+}
+
 .task-blocks-wrapper{
   display: flex;
   flex-wrap: wrap;
