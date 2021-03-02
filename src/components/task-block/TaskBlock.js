@@ -10,7 +10,7 @@ function TaskBlock({task, tag, color, isTaskPinned, HandleTaskBlockPinClick,Hand
   return (
     <div className="task-block" style={{backgroundColor: color}}>
       <div className="pin-delete-container">
-        <div className="TaskBlock__pin" onClick = {()=>HandleTaskBlockPinClick(index)}>
+        <div className="TaskBlock__pin" onClick = {()=>HandleTaskBlockPinClick(id)}>
         {isTaskPinned? pinElementActive : pinElementInActive}
         </div>
         

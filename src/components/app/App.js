@@ -195,14 +195,42 @@ function useLocalStorage(key, initialValue) {
   }
 
   // This is to handle the pin click in all the individual tasks
-  const HandleTaskBlockPinClick = (i) =>{
+//   const HandleTaskBlockPinClick = (i) =>{
+//     if(isFilterActive){
+//       let copyArray = [...filteredAllArr];
+//       copyArray.forEach(tsk=>{
+//         if(tsk.id === i){
+//           tsk.isTaskPinned = !tsk.isTaskPinned;
+//         }
+//       })
+//       setFilteredAllArr([...copyArray]);
+//     }else{
+//       let copyArray = [...tasks];
+//       copyArray.forEach(tsk=>{
+//         if(tsk.id === i){
+//           tsk.isTaskPinned = !tsk.isTaskPinned;
+//         }
+//       setTasks([...copyArray]);
+//     }
+//     }
+//   }
+// }
+  const HandleTaskBlockPinClick = (id) => {
     if(isFilterActive){
       let copyArray = [...filteredAllArr];
-      copyArray[i].isTaskPinned = !copyArray[i].isTaskPinned;
+      copyArray.forEach((tsk)=>{
+        if(tsk.id === id){
+          tsk.isTaskPinned = !tsk.isTaskPinned;
+        }
+      })
       setFilteredAllArr([...copyArray]);
     }else{
       let copyArray = [...tasks];
-      copyArray[i].isTaskPinned = !copyArray[i].isTaskPinned;
+      copyArray.forEach((tsk)=>{
+        if(tsk.id === id){
+          tsk.isTaskPinned = !tsk.isTaskPinned;
+        }
+      })
       setTasks([...copyArray]);
     }
   }
