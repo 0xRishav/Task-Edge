@@ -4,7 +4,7 @@ import {pinElementActive, pinElementInActive} from '../task-input/icons'
 
 function TaskBlock({task, tag, color, isTaskPinned, HandleTaskBlockPinClick,HandleAllTaskDelete, index, indTask, id}) {
 
-  console.log('this is task', task);
+
 
 
   return (

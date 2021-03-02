@@ -26,3 +26,12 @@
   padding: 8px 16px;
   border-radius: 10px;
 }
+@media (max-width: 580px) {
+  .task-block{
+    width: 100%;
+    /* margin: 10px; */
+    padding: 0px 10px;
+    padding-bottom: 10px;
+    position: relative;
+  }
+}

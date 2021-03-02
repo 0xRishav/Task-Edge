@@ -7,6 +7,7 @@
 .task-blocks-wrapper{
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .left-right-container{
@@ -16,8 +17,12 @@
 .left-div{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding-right: 10px;
+}
+.left-div-tags-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
 }
 .right-div{
@@ -35,4 +40,32 @@
   border-radius: 5px;
   cursor: pointer;
   margin: 8px 0;
+}
+
+@media (max-width: 580px) {
+  .left-right-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .left-div-tags-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .right-div{
+    width: 90%;
+    margin-left: 0;
+    
+  }
+  .left-div{
+    display: flex;
+    padding-right: 10px;
+  }
+  .task-blocks-wrapper{
+    justify-content: center;
+    align-items: center;
+  }
+
 }
