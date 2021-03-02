@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { TaskInput, TaskBlock } from '../index'
 import './App.css';
 
-
 function App() {
 
   /************************ Hook for local storage ************************/
@@ -274,7 +273,8 @@ function useLocalStorage(key, initialValue) {
       </div>
 
 
-
+          <footer><a className="footer-link" target="_blank" href="https://github.com/iamrishavb/Task-Edge">Source Code</a></footer>
+          
     </div>
   );
 }
